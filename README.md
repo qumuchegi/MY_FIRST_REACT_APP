@@ -1,4 +1,4 @@
-这个简单的React app是用create-react-app脚手架开发的，功能是查询足球联赛和球队的赛程信息。数据来自聚合数据的免费API，因此为了跨域请求数据，在sever.js使用了superAgent作为中转。前端直接使用原生的XMLHttpRequest发出请求，避免浏览器不支持而没有使用新的Fetch。
+这个简单的React app是用create-react-app脚手架开发的，功能是查询足球联赛和球队的赛程信息。数据来自[聚合数据的免费API](https://www.juhe.cn/docs/api/id/90)，因此为了跨域请求数据，在sever.js使用了superAgent作为中转。前端直接使用原生的XMLHttpRequest发出请求，避免浏览器不支持而没有使用新的Fetch。
 
 待改进：1.没有发挥React响应式的state触发view渲染的特点，直接是每一次请求到数据就手动ReactDOM.render()渲染组件。解决方法：使用redux管理异步请求到的数据。
        2.要实现一个更完整的SPA，可能还缺一个Router。
