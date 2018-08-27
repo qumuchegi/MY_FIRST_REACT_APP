@@ -1,0 +1,47 @@
+.Options_Saicheng_Sheshou_Jifen{
+background-color: rgba(123,12,234,0.2);
+}
+#yc{
+	background-color: rgba(12,134,56,0.3);
+}
+#xj{
+	background-color: rgba(112,34,56,0.3);
+}
+#dj{	
+	background-color: rgba(12,34,156,0.3);
+}
+#yj{	
+	background-color: rgba(12,34,6,0.3);
+}
+#fj{	
+	background-color: rgba(12,34,111,0.3);
+}
+
+#saichengOption{
+	margin:0;
+	display: inline-block;
+	padding: 2% 14.2% 2% 14.2%;
+
+
+}
+#saichengOption:hover{
+    background-color: rgba(123,234,5,0.6);
+}
+#sheshouOption{
+	margin:0;
+	display: inline-block;
+    padding: 2% 14.2% 2% 14.2%;
+
+}
+#sheshouOption:hover{
+	 background-color: rgba(123,234,5,0.6);
+}
+#jifenOption{
+	margin:0;
+	display: inline-block;
+  	padding: 2% 14.5% 2% 14.6%;
+
+}
+#jifenOption:hover{
+	 background-color: rgba(123,234,5,0.6);
+}

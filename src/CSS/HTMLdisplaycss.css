@@ -1,0 +1,52 @@
+body{
+  padding: 0;
+  margin:0;
+}
+
+h1{
+  display:inline-block;
+  font-family: 'STCaiyun';
+  color:rgb(23,24,223,0.7);
+  width:30%;
+  margin:0;
+  padding: 0
+}
+#Header{
+	height: 30%;
+	font-size: 200%;
+	margin:0px;
+  padding:0px;
+  width: 100%;
+  background-color: rgba(123,123,234,0.1);
+  margin-bottom: 0;
+  padding: 0
+
+}
+hr{
+  margin: 0;
+  padding: 0
+}
+#rightcontent{
+	float:right;
+	width:75%;
+	margin: 0
+  
+ }
+ #leftnav{
+
+  	width:25%;
+  	float: left;
+  	margin: 0
+  }
+.button{
+    background-color: white;
+
+}
+.button:hover{
+	background-color: green;
+}
+#content p{
+  color:green;
+  font-size: 140%;
+  font-family: 'Youyuan';
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+   <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+   <header id="Header">
+     <h1>足球查询web</h1>
+    <div id="clubquery_input_button"></div>
+   </header>
+ <hr>
+   <div>
+     <div id="leftnav">
+      <div id="leftnav1"></div>
+    </div>
+     <div id="rightcontent">
+      <div id="rightcontent_top"></div>
+      <div id="content">
+        <p align="center">制作此单页APP只用作学习，数据来自<a href="https://www.juhe.cn/docs/api/id/90">聚合数据免费API</a>。由于免费，可能API数据更新较慢甚至部分缺失。</p>
+        <p>用create-react-app脚手架开发，免去了很多配置的工作，数据获取通过服务器端用superAgent中转实现跨域，不说app的功能很简单，技术上很多也还没有用到，比如没有实现react的特性——响应式，即react通过监听state的变化渲染页面。后面会用到Redux管理API数据，还有Router,主要是为了做一点Redux的实践，练练手,尽量学会用实际生产中的方式开发React应用,也许不是在这个app上做改进，做个2.0版，而是重新做一个有实用价值、可对外发布的的app。这也是我的目标。O(∩_∩)O</p>
+        <p align="right">By 菜鸟</p>
+      </div>
+    </div>
+   </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body> 
+</html>

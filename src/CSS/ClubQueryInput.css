@@ -1,0 +1,15 @@
+#clubquery_input_button{
+ 	font-family: 'Youyuan';
+	float:right;
+	margin-top:2.5%;
+	font-size: 60%;
+}
+#button{
+ 	width:6%;
+ 	text-align: center;
+	background-color: rgba(212,133,114,0.3);
+
+}
+input{
+	background-color: rgba(22,33,44,0.2);
+ }
